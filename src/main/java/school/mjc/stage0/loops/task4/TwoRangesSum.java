@@ -8,7 +8,7 @@ public class TwoRangesSum {
         }
 
         if (numberToSkip > lastInRow) {
-            System.out.println("number to skip is bigger then the last");
+            System.out.println("number to skip is bugger then the last");
             return;
         }
 
@@ -16,7 +16,7 @@ public class TwoRangesSum {
         int countedSum = 0;
 
         for (int i = 1; i <= lastInRow; i++) {
-            if (i % numberToSkip == 0) {
+            if (i <= numberToSkip) {
                 skippedSum += i;
             } else {
                 countedSum += i;
