@@ -11,7 +11,7 @@ public class FixMe {
             }
             if (i == 6) {
                 System.out.print("last ");
-                System.out.print("will I be printed?");
+                System.out.print("will I be printed? ");
                 break;
             }
         }
